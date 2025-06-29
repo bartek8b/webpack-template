@@ -10,7 +10,9 @@
 - ### change-branch:
     "git checkout gh-pages && git merge main --no-edit",
 - ### build:
-    "npx webpack",
+    "webpack",
+- ### dev:
+    "webpack serve",
 - ### commit-dist:
     "git add dist -f && git commit -m \"Deployment commit\"",
 - ### push-gh-pages:
