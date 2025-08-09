@@ -1,6 +1,6 @@
 ### 🚀 webpack-template
 
-A starter repository for front-end projects using [Webpack](https://webpack.js.org/).
+A starter repository for vanilla JavaScript front-end projects using [Webpack](https://webpack.js.org/).
 
 ### 📦 Quick Start
 
@@ -54,7 +54,7 @@ A starter repository for front-end projects using [Webpack](https://webpack.js.o
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
 ```
 webpack-template/
