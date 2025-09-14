@@ -23,14 +23,12 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
 
 ### 🛠️ NPM Scripts
 
-| Script                   | Description                                                |
-|--------------------------|------------------------------------------------------------|
-| `npm run dev`            | Starts the development server (webpack-dev-server)         |
-| `npm run build`          | Builds the production-ready version into the `dist` folder |
-| `npm run lint-and-format`| Formats & runs ESLint to check & fix code quality          |
-| `npm run set-branch`     | Creates the `gh-pages` branch (run once)                   |
-| `npm run commit-dist`    | Adds and commits the `dist` folder                         |
-| `npm run push-gh-pages`  | Pushes the `dist` folder to the `gh-pages` branch          |
+| Script                   | Description                                                                        |
+|--------------------------|------------------------------------------------------------------------------------|
+| `npm run dev`            | Starts the development server (webpack-dev-server)                                 |
+| `npm run lint-and-format`| Formats & runs ESLint to check & fix code quality                                  |
+| `npm run build`          | Builds the production-ready version into the `dist` folder                         |
+| `npm run deploy`         | Creates the `gh-pages` branch if it does not exist and pushes the distribution code|
 
 ---
 
@@ -40,15 +38,11 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
    ```bash
    npm run build
    ```
-2. **Commit the dist folder:**
+2. **Commit the dist folder & push to gh-pages branch in one step:**
    ```bash
-   npm run commit-dist
+   npm run deploy
    ```
-3. **Push to gh-pages branch:**
-   ```bash
-   npm run push-gh-pages
-   ```
-4. **Done!**  
+3. **Done!**  
    Your site will be available at:  
    `https://YOUR_USERNAME.github.io/REPO_NAME/`
 
