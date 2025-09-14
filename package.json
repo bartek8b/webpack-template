@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "set-branch": "git branch gh-pages",
-    "change-branch": "git checkout gh-pages && git merge main --no-edit",
-    "checkout": "git checkout main",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
