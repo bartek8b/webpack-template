@@ -4,6 +4,3 @@ body {
   scroll-behavior: smooth;
   text-wrap: balance;
 }
-* {
-  transition: all 0.2s linear 0s;
-}
