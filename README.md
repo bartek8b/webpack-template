@@ -5,30 +5,40 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
 ### 📦 Quick Start
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/bartek8b/webpack-template.git
    cd webpack-template
    ```
 
-2. **Install dependencies:**
+2. **Change the description in package.json to fit your project**
+
+   Replace the placeholder:
+
+   ```
+   "Template repo for projects using webpack — REPLACE THIS DESCRIPTION for your project"
+   ```
+
+3. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
-3. **Start development server (with live reload):**
+4. **Start development server (with live reload):**
    ```bash
    npm run dev
    ```
-   ---
+   ***
 
 ### 🛠️ NPM Scripts
 
-| Script                   | Description                                                                        |
-|--------------------------|------------------------------------------------------------------------------------|
-| `npm run dev`            | Starts the development server (webpack-dev-server)                                 |
-| `npm run lint-and-format`| Formats & runs ESLint to check & fix code quality                                  |
-| `npm run build`          | Builds the production-ready version into the `dist` folder                         |
-| `npm run deploy`         | Creates the `gh-pages` branch if it does not exist and pushes the distribution code|
+| Script                    | Description                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| `npm run dev`             | Starts the development server (webpack-dev-server)                                  |
+| `npm run lint-and-format` | Formats & runs ESLint to check & fix code quality                                   |
+| `npm run build`           | Builds the production-ready version into the `dist` folder                          |
+| `npm run deploy`          | Creates the `gh-pages` branch if it does not exist and pushes the distribution code |
 
 ---
 
