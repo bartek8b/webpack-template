@@ -58,12 +58,20 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
 
 ---
 
+### 🔄 Dependency Updates
+
+This project uses [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically) to automatically check for and propose updates to npm dependencies via pull requests.
+
+---
+
 ### 🗂️ Project Structure
 
 ```
 webpack-template/
-├── src/              # Main source directory
-├── dist/             # Production build output (generated)
+├── src/                   # Main source directory
+├── dist/                  # Production build output (generated)
+├── .github/
+│   └── dependabot.yml     # Dependabot configuration for automated dependency updates
 ├── .gitignore
 ├── .prettierrc
 ├── .prettierignore
