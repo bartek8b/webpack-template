@@ -4,7 +4,7 @@
   "description": "Template repo for projects using webpack — REPLACE THIS DESCRIPTION for your project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "webpack serve",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
