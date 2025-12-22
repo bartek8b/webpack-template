@@ -2,6 +2,8 @@
 
 A starter repository for vanilla JavaScript front-end projects using [Webpack](https://webpack.js.org/).
 
+---
+
 ### 📦 Quick Start
 
 1. **Clone the repository:**
@@ -11,7 +13,7 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
    cd webpack-template
    ```
 
-2. **Change the description in package.json to fit your project**
+2. **Change the description in `package.json` to fit your project**
 
    Replace the placeholder:
 
@@ -26,18 +28,53 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
    ```
 
 4. **Start development server (with live reload):**
+
    ```bash
    npm run dev
    ```
-   ***
+
+---
+
+### 🛠️ Features & Tools
+
+This template comes pre-configured with the following features:
+
+#### **Development Tools**
+
+- **Webpack**: Bundler for modular JavaScript, CSS, and other assets.
+- **ESLint**: Linting tool for static code analysis.
+- **Prettier**: Code formatter ensuring consistent code style.
+- **Babel**: JavaScript transpiler for modern ES6+/ESNext features.
+- **Jest**: Testing framework to write unit tests with an intuitive API.
+
+#### **CI Automation**
+
+- Dependency Management: Automatically configured using [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically).
+
+#### **Deployment to GitHub Pages**
+
+- Easily deploy the build output to a GitHub Pages site using the `deploy` npm script.
+
+#### **Testing Support with Jest**
+
+- Write your unit tests in `src/`, following the naming convention:
+  - `*.test.js`
+  - `*.spec.js`
+- Babel is preconfigured to handle modern JavaScript during testing.
+
+---
 
 ### 🛠️ NPM Scripts
 
 | Script                    | Description                                                                         |
 | ------------------------- | ----------------------------------------------------------------------------------- |
 | `npm run dev`             | Starts the development server (webpack-dev-server)                                  |
-| `npm run lint-and-format` | Formats & runs ESLint to check & fix code quality                                   |
+| `npm run lint`            | Runs ESLint to check code quality                                                   |
+| `npm run lint:fix`        | Fixes lint issues automatically                                                     |
+| `npm run format`          | Formats code using Prettier                                                         |
+| `npm run lint-and-format` | Runs both `lint:fix` and code formatting together                                   |
 | `npm run build`           | Builds the production-ready version into the `dist` folder                          |
+| `npm test`                | Runs Jest unit tests                                                                |
 | `npm run deploy`          | Creates the `gh-pages` branch if it does not exist and pushes the distribution code |
 
 ---
@@ -48,7 +85,7 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
    ```bash
    npm run build
    ```
-2. **Commit the dist folder & push to gh-pages branch in one step:**
+2. **Deploy the build folder to GitHub Pages:**
    ```bash
    npm run deploy
    ```
@@ -58,35 +95,45 @@ A starter repository for vanilla JavaScript front-end projects using [Webpack](h
 
 ---
 
+### 🔄 Dependency Updates
+
+This project uses [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically) to automatically check for and propose updates to npm dependencies.
+
+---
+
 ### 🗂️ Project Structure
 
 ```
 webpack-template/
-├── src/              # Main source directory
-├── dist/             # Production build output (generated)
+├── src/                   # Main source directory
+├── dist/                  # Production build output (generated)
+├── config/                # Configuration files for Babel and ESLint
+├── .github/
+│   └── dependabot.yml     # Dependabot configuration for automated dependency updates
 ├── .gitignore
-├── .prettierrc
-├── .prettierignore
-├── .eslintignore
-├── eslint.config.mjs
-├── package.json
-└── README.md
+├── babel.config.js        # Babel configuration for Jest and ES6+
+├── eslint.config.mjs      # ESLint configuration
+├── package.json           # NPM dependencies & scripts
+├── README.md              # Documentation
+└── webpack.config.js      # Webpack configuration
 ```
 
 ---
 
-### 📚 Technologies
+### 📚 Technologies Used
 
-- [Webpack](https://webpack.js.org/)
-- [Prettier](https://prettier.io/)
-- [ESLint (flat config)](https://eslint.org/)
-- [GitHub Pages](https://pages.github.com/)
+- **[Webpack](https://webpack.js.org/)**: Modern JavaScript bundler.
+- **[Prettier](https://prettier.io/)**: Code formatting.
+- **[ESLint](https://eslint.org/)**: Linter with flat-config for better organization.
+- **[Babel](https://babeljs.io/)**: Transpiler for ESNext support.
+- **[Jest](https://jestjs.io/)**: Testing framework.
+- **[GitHub Pages](https://pages.github.com/)**: Simple deployment workflow.
 
 ---
 
 ### 📝 Author
 
-- [Bartłomiej Balcerzak](https://github.com/bartek8b)
+- **[Bartłomiej Balcerzak](https://github.com/bartek8b)**
 
 ---
 
