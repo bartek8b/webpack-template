@@ -40,7 +40,7 @@
     "prettier": "^3.8.4",
     "mini-css-extract-plugin": "^2.10.2",
     "webpack": "^5.108.2",
-    "webpack-cli": "^7.0.3",
+    "webpack-cli": "^7.1.0",
     "webpack-dev-server": "^5.2.5"
   }
 }
