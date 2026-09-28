@@ -133,7 +133,7 @@ webpack-template/
 
 ### 📝 Author
 
-- **[Bartłomiej Balcerzak](https://github.com/bartek8b)**
+- **[Bartłomiej Balcerzak](https://github.com/bartolinidev)**
 
 ---
 
