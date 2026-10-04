@@ -107,7 +107,6 @@ This project uses [Dependabot](https://docs.github.com/en/code-security/supply-c
 webpack-template/
 ├── src/                   # Main source directory
 ├── dist/                  # Production build output (generated)
-├── config/                # Configuration files for Babel and ESLint
 ├── .github/
 │   └── dependabot.yml     # Dependabot configuration for automated dependency updates
 ├── .gitignore
